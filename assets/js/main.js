@@ -458,7 +458,7 @@ if (resumeButton) {
   resumeButton.addEventListener("click", async function (event) {
     event.preventDefault();
 
-    const resumeUrl = "./assets/resume/Akshaya_Resume.pdf";
+    const resumeUrl = "./assets/resume/Akshaya_Resume_Software_Developer.pdf";
 
     console.log("Trying to download from:", resumeUrl);
     console.log("Current website URL:", window.location.href);
