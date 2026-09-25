@@ -478,7 +478,7 @@ if (resumeButton) {
 
       const temporaryLink = document.createElement("a");
       temporaryLink.href = temporaryUrl;
-      temporaryLink.download = "Akshaya_Resume.pdf";
+      temporaryLink.download = "Akshaya_Resume_Software_Developer.pdf";
 
       document.body.appendChild(temporaryLink);
       temporaryLink.click();
